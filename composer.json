@@ -1,0 +1,19 @@
+{
+    "name": "loafer/laravel-bulk-package",
+    "description": "A package for laravel that allows bulk data insertion",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loafer19",
+            "email": "platonpopelishin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Loafer\\LaravelBulkPackage\\": "src/"
+        }
+    },
+    "require": {}
+}
