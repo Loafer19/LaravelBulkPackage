@@ -1,21 +1,15 @@
 ## Laravel Bulk Package
 
-##### A package for laravel that allows bulk data insertion
+#### A package for laravel that allows bulk data insertion
 
 for example, when you have such data:
 
 ```
-Illuminate\Support\Collection {#552 ▼
-  #items: array:50 [▼
-    0 => array:1 [▼
-      "name" => "Перфораторы"
-    ]
-    1 => array:1 [▼
-      "name" => "Дрели"
-    ]
-    ...
-  ]
-}
+$categories = collect([
+    ['name' => 'Category 1'],
+    ['name' => 'Category 2'],
+    ['name' => 'Category 3'],
+]);
 ```
 
 you just write:
